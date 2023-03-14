@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(45deg,rgb(6, 0, 50),rgb(171, 171, 255),rgb(126, 0, 122));
+    overflow: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+.floating-body{
+    background-image: linear-gradient(-45deg,rgb(1, 1, 75),rgb(0, 0, 115),rgb(71, 71, 255),rgb(0, 0, 95),black);
+    margin: 30px 30px 0px 30px;
+    border-radius: 30px;
+    height: 100vh;
+    overflow-y: scroll;
+    color: white;
+}
+.floating-body nav{
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-around;
+    height: 150px;
+}
+.floating-body nav img{
+    width: 150px;
+    padding: 50px;
+}
+.floating-body nav a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 16px;
+    padding: 10px;
+    transition: .4s ease-in-out;
+}
+.floating-body nav a:hover{
+    background-color: rgba(3, 0, 173, 0.553);
+    border-radius: 100px;
+    color: rgb(182, 182, 182);
+}
+.register{
+    background-color: blue;
+    border-radius: 100px;
+    padding: 20px;
+}
+.body1{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    height: 600px;
+}
+.body1 .left{
+    display: flex;
+    /* justify-content: space-around; */
+}
+.body1 .left .blocksave{
+    display: flex; 
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.511);
+    height: 35px;
+    padding-left: 5px;
+    padding-right: 20px;
+    border-radius: 100px;
+    width: 400px;
+}
+.blocksave p{
+    margin-right: 10px;
+    background-color: white;
+    color: darkblue;
+    padding: 5px 10px;
+    border-radius: 100px;
+}
+.right img{
+    width: 500px;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+}
+.blockbig{
+    font-size: 60px;
+    flex-wrap: wrap;
+    width: 470px;
+    align-items: center;
+}
+.left a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    padding: 5px 20px;
+    width: 170px;
+    border-radius: 100px;
+    background-color: rgb(0, 119, 255);
+    transition: .4s ease-in-out;
+}
+.left a:hover{
+    background-color: rgba(68, 68, 255, 0.574);
+}
+.left a p{
+    margin-right: 10px;
+}
+.left a i{
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 100%;
+    width: 20px;
+    justify-content: center;
+    color:  rgb(0, 119, 255);
+}
